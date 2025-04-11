@@ -2,7 +2,6 @@ class LibraryManager:
     def __init__(self):
         self.library = []
 
-    
     def add_book(self):
         title = input("Enter book title: ")
         author = input("Enter author name: ")
