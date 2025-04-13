@@ -6,7 +6,6 @@ class LibraryManager:
         title = input("Enter book title: ")
         author = input("Enter author name: ")
         while True:
-
             try:
                 year = int(input("Enter publication year: "))
                 break
